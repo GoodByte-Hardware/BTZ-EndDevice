@@ -1,0 +1,234 @@
+(footprint "STS4X"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "8acad967-c9be-4a2b-95af-9bc59305e142")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a91fa0cd-d6ae-4001-98c1-f39368a5f097")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "429b728a-aa1f-47a8-9ed4-ce87e7cce339")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6acfac50-d332-4bf7-b747-f8945d230595")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -0.5)
+		(end -1.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5b5d1e94-abc3-4fee-b09d-df409b24058c")
+	)
+	(fp_line
+		(start -1.2 -0.4)
+		(end -1.5 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "52feebb8-ed4a-4242-83d6-4374895992de")
+	)
+	(fp_line
+		(start -1.2 -0.4)
+		(end -1.5 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2585242d-506a-40b3-bddf-5dbf9be35586")
+	)
+	(fp_line
+		(start -0.7 -0.75)
+		(end 0.7 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d662fa7-46d6-4f12-86a0-d85d2936bb28")
+	)
+	(fp_line
+		(start -0.7 0.75)
+		(end 0.7 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c8579a-ca89-4636-953a-b1798f8ea820")
+	)
+	(fp_line
+		(start -1.2 -1)
+		(end -1.2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9c84b4f-0ce0-41ef-89b9-db5644d24da6")
+	)
+	(fp_line
+		(start -1.2 1)
+		(end 1.2 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa999021-cd3e-414f-be62-a1ede381b87f")
+	)
+	(fp_line
+		(start 1.2 -1)
+		(end -1.2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d7eb709-5945-4f39-a005-63f50ae3f3a0")
+	)
+	(fp_line
+		(start 1.2 1)
+		(end 1.2 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3276a24-275d-4f32-8e9a-9a4f16563cae")
+	)
+	(fp_line
+		(start -0.75 -0.45)
+		(end -0.45 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fa303dfc-8a93-47b4-88b9-342ec95641cd")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0186467-511e-4e1d-ba39-e250728cf157")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d617e0c2-1bda-40d4-ad20-ac15ff2f1b05")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end -0.45 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e122fdf0-ab43-42f1-a8b3-c10adb6d4679")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3a9494a3-c2aa-45a0-b509-31b66a78fe79")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "934cda8e-72bc-452e-a505-386aa520513c")
+	)
+	(pad "2" smd rect
+		(at -0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "f5407f7d-6b45-42f5-90f6-e0aae36ab2b0")
+	)
+	(pad "3" smd rect
+		(at 0.7 0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "c5268646-0411-417f-9e9a-8f1975f363ab")
+	)
+	(pad "4" smd rect
+		(at 0.7 -0.4)
+		(size 0.5 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "ee95dc61-6d52-4050-a97a-48b0c88f1edf")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library/3D Model/STS4X.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

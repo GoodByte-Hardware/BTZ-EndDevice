@@ -1,0 +1,22 @@
+# KiCad backups, caches and local settings
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.bak
+_autosave-*
+\#auto_saved_files#
+*.lck
+fp-info-cache
+*.kicad_prl
+
+# KiBot logs and local configuration (contains API keys)
+kibot_run*.log
+kibot_yaml/kicost_config_local.yaml
+
+# JLCPCB Fabrication Toolkit output
+production/
+
+# OS files
+.DS_Store
+Thumbs.db
